@@ -1,25 +1,25 @@
-# Lab: Getting Started with Burp Suite
+# Lab: Web Traffic Analysis with Burp Suite
 
-Just documenting my first steps into web traffic analysis. I'm setting up my environment to better understand how data moves between a browser and a server.
+This lab covers the essential steps for intercepting and analyzing web traffic. The goal is to establish a working proxy environment between the browser and Burp Suite.
 
-## What I've Done
-- Set up **FoxyProxy** to route my browser traffic through Burp.
-- Configured the **Proxy Listener** on `127.0.0.1:8080`.
-- Successfully intercepted a basic request from `http://httpforever.com`.
+## Setup & Workflow
+- **Proxy:** Configured FoxyProxy to route traffic through `127.0.0.1:8080`.
+- **Listener:** Verified the Burp Proxy Listener is active and running.
+- **Interception:** Captured HTTP requests from `http://httpforever.com` to analyze headers and parameters.
 
-## Visual Progress
+## Visual Documentation
 
-### 1. FoxyProxy Setup
-Simple configuration to make sure my browser is actually talking to Burp Suite.
+### 1. FoxyProxy Configuration
+Browser proxy settings for routing traffic.
 ![FoxyProxy Setup](../images/1.jpeg)
 
-### 2. Checking the Listener
-Double-checking that Burp is actually listening on the right port.
-![Proxy Settings](../images/3.jpg)
-
-### 3. First Successful Intercept
-It was pretty cool to see the "hidden" data in a GET request for the first time.
+### 2. Traffic Interception
+Captured a GET request. This confirms the connection between the browser and Burp Suite is working.
 ![Intercept Success](../images/2.jpeg)
 
-## Thoughts
-This is a small start, but it’s the foundation for everything else. Being able to see and modify traffic is the first real step in understanding web security. Moving forward, I'll be practicing more with the Repeater and Intruder modules.
+### 3. Proxy Listener Settings
+Verified that the listener is properly bound to the local interface and port.
+![Proxy Settings](../images/3.jpeg)
+
+## Conclusion
+The environment is fully functional. The next step is to perform manual request manipulation using the Repeater and Intruder modules.
