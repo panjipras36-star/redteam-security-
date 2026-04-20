@@ -19,7 +19,7 @@ Captured a GET request. This confirms the connection between the browser and Bur
 
 ### 3. Request Manipulation (Repeater)
 Verified that requests are successfully sent to the Repeater and responses are received.
-![Repeater Manipulation](../images/3.png)
+![Repeater Manipulation](../images/3.jpeg)
 
 ## Conclusion
 The environment is fully functional. The setup allows for capturing traffic and performing manual request manipulation using the Repeater module.
