@@ -1,30 +1,29 @@
-# redteam-security-
-Technical documentation of web security vulnerabilities, offensive techniques, and basic remediation
-# Information Security & Red Team Research
-Enterprise-grade documentation for vulnerability assessments and offensive security research.
+# redteam-security
+Notes and documentation on web security vulnerabilities and offensive testing.
 
-## 🎯 Executive Summary
-Aspiring Security Engineer and Penetration Tester with a core focus on **Offensive Security Operations**. I specialize in identifying web-based vulnerabilities and understanding complex attack vectors through systematic methodology. My goal is to bridge the gap between exploitation and remediation to enhance organizational security posture.
+## 🎯 Summary
+I am a Security Student focused on **Offensive Security**. I use this repository to document my learning process in identifying web vulnerabilities and understanding how attack vectors work in lab environments. My goal is to develop a solid foundation in both exploitation and remediation.
 
-## 🛠️ Technical Proficiencies & Toolchain
-### **Core Languages**
-- **Scripting & Automation:** Python (Custom exploit development & task automation).
-- **Web Technologies:** HTML, JavaScript (Fundamental analysis of client-side vulnerabilities).
+## 🛠️ Technical Skills & Tools
+### **Languages**
+- **Python:** Scripting for basic automation.
+- **Web:** HTML & JavaScript (Foundational).
 
-### **Security Assessment Tools (Industry Standard)**
-- **Reconnaissance:** Nmap (Network Mapping), Subfinder, Assetfinder, HTTPX.
-- **Vulnerability Research:** Burp Suite, Nuclei (Template-based scanning), FFUF (Fuzzing).
-- **Traffic & Packet Analysis:** Wireshark, FoxyProxy.
-- **Operating Systems:** Kali Linux (Primary environment for security testing).
+### **Tools**
+- **Reconnaissance:** Nmap, Subfinder, Assetfinder, HTTPX.
+- **Web Testing:** Burp Suite, Nuclei.
+- **Exploitation:** Metasploit Framework.
+- **Analysis:** Wireshark, FoxyProxy.
+- **OS:** Kali Linux.
 
-## 🧪 Security Research & Projects
-### 1. Web Application Security Assessment
-- **Attack Vector Analysis:** Comparative study of Cross-Site Scripting (XSS) and SQL Injection (SQLi) within controlled environments.
-- **Payload Optimization:** Analyzing filter evasion techniques and WAF (Web Application Firewall) bypass methodologies.
+## 🧪 Learning Projects
+### 1. Web Security Basics
+- **Vulnerability Analysis:** Comparing XSS and SQL Injection in controlled labs.
+- **Bypass Techniques:** Testing simple filter evasion methods.
 
-### 2. Remediation & Risk Mitigation
-- **Security Engineering:** Researching foundational defense mechanisms, including Input Validation, Output Encoding, and Security Headers (CSP, HSTS).
-- **Documentation:** Structured reporting of findings following industry-standard formats (e.g., OWASP Top 10).
+### 2. Remediation (Defense)
+- **Foundational Defense:** Understanding Input Validation and Security Headers (CSP, HSTS).
+- **Standards:** Following OWASP Top 10 guidelines for documentation.
 
 ## 🚩 Professional Disclaimer
-All security testing and research activities are conducted within authorized scopes and legal lab environments (e.g., TryHackMe, HackTheBox). This documentation is strictly for educational and professional development purposes.
+All activities are conducted in authorized environments (TryHackMe, HackTheBox, or local labs). This is for educational purposes only.
