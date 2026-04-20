@@ -9,13 +9,13 @@ Aspiring Security Engineer and Penetration Tester with a core focus on **Offensi
 ## 🛠️ Technical Proficiencies & Toolchain
 ### **Core Languages**
 - **Scripting & Automation:** Python (Custom exploit development & task automation).
-- **Web Technologies:** HTML5, JavaScript (Fundamental analysis of client-side vulnerabilities).
+- **Web Technologies:** HTML, JavaScript (Fundamental analysis of client-side vulnerabilities).
 
 ### **Security Assessment Tools (Industry Standard)**
 - **Reconnaissance:** Nmap (Network Mapping), Subfinder, Assetfinder, HTTPX.
-- **Vulnerability Research:** Burp Suite Professional, Nuclei (Template-based scanning), FFUF (Fuzzing).
+- **Vulnerability Research:** Burp Suite, Nuclei (Template-based scanning), FFUF (Fuzzing).
 - **Traffic & Packet Analysis:** Wireshark, FoxyProxy.
-- **Operating Systems:** Kali Linux (Advanced), Parrot OS.
+- **Operating Systems:** Kali Linux (Primary environment for security testing).
 
 ## 🧪 Security Research & Projects
 ### 1. Web Application Security Assessment
