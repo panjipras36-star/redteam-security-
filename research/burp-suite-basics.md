@@ -4,8 +4,8 @@ This lab covers the essential steps for intercepting and analyzing web traffic. 
 
 ## Setup & Workflow
 - **Proxy:** Configured FoxyProxy to route traffic through `127.0.0.1:8080`.
-- **Listener:** Verified the Burp Proxy Listener is active and running.
 - **Interception:** Captured HTTP requests from `http://httpforever.com` to analyze headers and parameters.
+- **Manipulation:** Utilized the Repeater module to send modified requests and analyze responses.
 
 ## Visual Documentation
 
@@ -17,9 +17,9 @@ Browser proxy settings for routing traffic.
 Captured a GET request. This confirms the connection between the browser and Burp Suite is working.
 ![Intercept Success](../images/2.jpeg)
 
-### 3. Proxy Listener Settings
-Verified that the listener is properly bound to the local interface and port.
-![Proxy Settings](../images/3.jpeg)
+### 3. Request Manipulation (Repeater)
+Verified that requests are successfully sent to the Repeater and responses are received.
+![Repeater Manipulation](../images/3.png)
 
 ## Conclusion
-The environment is fully functional. The next step is to perform manual request manipulation using the Repeater and Intruder modules.
+The environment is fully functional. The setup allows for capturing traffic and performing manual request manipulation using the Repeater module.
