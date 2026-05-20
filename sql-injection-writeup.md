@@ -25,7 +25,7 @@ The resulting query becomes:
 ## Evidence of Success
 The application responded by displaying all products, including those marked as "unreleased," confirming that the logic bypass was successful.
 
-*(Insert your screenshot here)*
+
 
 ## Remediation
 To prevent this vulnerability, the application should:
