@@ -25,7 +25,7 @@ The resulting query becomes:
 ## Evidence of Success
 The application responded by displaying all products, including those marked as "unreleased," confirming that the logic bypass was successful.
 
-
+https://github.com/panjipras36-star/redteam-security-/blob/main/images/Sql_injection1.jpeg?raw=true
 
 ## Remediation
 To prevent this vulnerability, the application should:
