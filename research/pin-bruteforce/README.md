@@ -29,3 +29,11 @@ A custom Python-based multi-request engine designed to simulate a production-lev
 Ensure Flask and Requests libraries are provisioned in your Python environment:
 ```bash
 pip install flask requests
+
+Execution Flow
+
+    Initialize the Vulnerable Target Server (Terminal 1):
+python3 app_target.py
+Launch the Exploitation Engine (Terminal 2):
+Bash
+python3 exploit.py
