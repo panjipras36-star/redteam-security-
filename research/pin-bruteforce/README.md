@@ -25,15 +25,14 @@ A custom Python-based multi-request engine designed to simulate a production-lev
 
 ## 🚀 Deployment & Proof of Concept (PoC)
 
-### Prerequisites
 Ensure Flask and Requests libraries are provisioned in your Python environment:
+
 ```bash
 pip install flask requests
 
-### Execution Flow
-
-1. **Execute Laboratory Components:**
-
-*Launch the Vulnerable Target Server (Terminal 1):*
-```bash
+Execution Flow
+Launch the Vulnerable Target Server (Terminal 1):
 python3 app_target.py
+
+Launch the Exploitation Engine (Terminal 2):
+python3 exploit.py
