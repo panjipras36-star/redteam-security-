@@ -1,4 +1,4 @@
-# Writeup1: Bypassing Hardened Server-Side WAF to Achieve Reflected XSS
+# Writeup: Bypassing Hardened Server-Side WAF to Achieve Reflected XSS
 
 ## 1. Executive Summary
 This research documents the discovery and successful exploitation of a **Reflected Cross-Site Scripting (XSS)** vulnerability on a simulated government portal for the fabled United Republic of Neo-Valkyria. Although the developer implemented an aggressive, blacklist-based Web Application Firewall (WAF) regex mechanism on the backend, the protective layers were logically bypassed. This was achieved by exploiting client-side browser internals and behavior patterns found in modern JavaScript syntax.
@@ -34,11 +34,14 @@ To invoke the function while adapting to the restricted `()` token policy, the p
 To prevent the string concatenation operator (`+`) from being misparsed as a literal space by the web server during inbound HTTP request handling, the character is manually converted to its safe URL-encoded hex equivalent: `%2B`.
 
 ---
-### 4. The Final Proof-of-Concept (PoC)
+
+## 4. The Final Proof-of-Concept (PoC)
 
 Combining all the distinct evasion vectors yields a single-line final payload that successfully misleads the server-side WAF and executes arbitrary client-side JavaScript:
-
 ```text
 http://localhost:9000/render?path=<svg/onload=top['al'%2B'ert']`GRID_NODE:_`%2Blocation.host>
+```
 
-![WAF Evasion Success](../images/poc.png)
+#### 📷 Evidence of Exploitation
+
+![WAF Evasion Success](https://raw.githubusercontent.com/panjiprasas36-star/redteam-security-/main/images/poc.png)
