@@ -1,4 +1,4 @@
-# Writeup: Bypassing Hardened Server-Side WAF to Achieve Reflected XSS
+# Writeup1: Bypassing Hardened Server-Side WAF to Achieve Reflected XSS
 
 ## 1. Executive Summary
 This research documents the discovery and successful exploitation of a **Reflected Cross-Site Scripting (XSS)** vulnerability on a simulated government portal for the fabled United Republic of Neo-Valkyria. Although the developer implemented an aggressive, blacklist-based Web Application Firewall (WAF) regex mechanism on the backend, the protective layers were logically bypassed. This was achieved by exploiting client-side browser internals and behavior patterns found in modern JavaScript syntax.
