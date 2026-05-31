@@ -45,4 +45,4 @@ http://localhost:9000/render?path=<svg/onload=top['al'%2B'ert']`GRID_NODE:_`%2Bl
 
 #### 📷 Evidence of Exploitation
 
-![WAF Evasion Success](poc.png)
+![WAF Evasion Success](https://raw.githubusercontent.com/panjiprasas36-star/redteam-security-/main/images/poc.png)
