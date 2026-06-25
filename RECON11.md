@@ -1,20 +1,43 @@
-# RECON1.1 - Active Network Scanner
+# RECON1.1 - Tactical Active Network Scanner
 
-RECON1.1 is a lightweight tactical active recon tool built natively in Python. It’s designed for quick network vector mapping and port auditing during engagement phases without relying on heavy third-party dependencies.
+RECON1.1 is a lightweight tactical active reconnaissance utility built natively in Python. It is designed for rapid network vector mapping, port auditing, and banner analysis during simulation and engagement phases.
 
 ---
 
-## What it does & Why it's useful
+## 🚀 Features And Methods
 
-The tool maps out open ports using standard TCP full-handshake verification. 
+### 🔹 Network Mapping Capabilities
+* **Active Port Verification:** Instantly checks status across critical system vectors.
+* **Full-Handshake Validation:** Utilizes standard TCP connection handshakes to ensure precision.
+* **Banner Grabbing Protocol:** Automatically attempts to capture service headlines upon locating open entry points.
+* **Zero External Dependencies:** Built entirely with native Python core modules, running out-of-the-box on clean installations.
 
-* **Fast Port Auditing:** Instantly scans standard operational ports to find exposed entry points.
-* **Service Banner Grabbing:** Attempts to grab service banners upon discovering an open port to help identify what's running.
-* **Zero-Dependency:** Written completely in pure Python socket programming, meaning it runs out-of-the-box on any standard Kali Linux or Ubuntu environment.
+### 🔹 Layer Coverage
+* **Layer 4 (Transport):** Direct TCP state validation and connection mapping.
 
-### 🖥️ Interface Preview
+---
 
-```text
+## ⚡ Getting Started
+
+### Requirements
+* Python 3.x
+* Linux Environment (Fully optimized for Kali Linux and Ubuntu)
+
+### Clone And Install Script (Standard Method)
+If you want to download the project locally to modify the code or review the assets, use the standard deployment commands below:
+
+```bash
+git clone [https://github.com/panjipras36-star/redteam-security-.git](https://github.com/panjipras36-star/redteam-security-.git)
+cd redteam-security-
+python3 recon11.py
+```
+
+One-Line Installing / Execution (Tactical Method)
+
+You can stream and run the scanner instantly in your workspace without storing temporary repository files on your local drive:
+curl -s [https://raw.githubusercontent.com/panjipras36-star/redteam-security-/main/recon11.py](https://raw.githubusercontent.com/panjipras36-star/redteam-security-/main/recon11.py) | python3
+🖥️ Documentation & Preview
+Interface Layout
 ============================================================
    ██████╗ ███████╗ ██████╗ ██████╗ ███╗   ██╗ ██╗  ██╗
    ██╔══██╗██╔════╝██╔════╝██╔═══██╗████╗  ██║███║  ██║
@@ -25,7 +48,7 @@ The tool maps out open ports using standard TCP full-handshake verification.
                   RECON TOOL v1.1 // BY NEUROPRASSSSS
 ============================================================
 
-[?] Target IP Address -> *******
+[?] Target IP Address -> **.**.**.**
 
 [ CORE MENU ]
 1. Scan Standard Ports
@@ -34,17 +57,7 @@ The tool maps out open ports using standard TCP full-handshake verification.
 4. Terminate Session
 
 nrp-recon >
-```
-⚡ Run it instantly (One-Liner Execution)
 
-You don't even need to clone this whole repository or manually copy-paste the source code. Just hit the copy button on the code block below, paste it straight into your Linux terminal, and press Enter:
-curl -s [https://raw.githubusercontent.com/panjipras36-star/redteam-security-/main/recon11.py](https://raw.githubusercontent.com/panjipras36-star/redteam-security-/main/recon11.py) | python3
-How it works behind the scenes:
+⚠️ Disclaimer
 
-    curl -s fetches the raw script code directly from this GitHub repo quietly in the background.
-
-    The pipe | python3 instantly streams that code straight into the Python interpreter to execute it on the fly, leaving zero trash files on your system.
-    
-  ⚠️ Disclaimer
-
-This tool is developed strictly for educational purposes, authorized penetration testing, and defensive hardening research. Scanning targets without explicit written consent is illegal. Use it responsibly.
+This tool is developed strictly for educational purposes, authorized penetration testing, and infrastructure hardening research. Scanning infrastructure without prior written consent from the proper authorities is strictly prohibited. The developer assumes no liability for alternative execution or systemic misuse.
