@@ -27,8 +27,12 @@ RECON1.1 is a lightweight tactical active reconnaissance utility built natively 
 If you want to download the project locally to modify the code or review the assets, use the standard deployment commands below:
 
 ```bash
-git clone [https://github.com/panjipras36-star/redteam-security-.git](https://github.com/panjipras36-star/redteam-security-.git)
+git clone https://github.com/panjipras36-star/redteam-security-.git
+```
+```
 cd redteam-security-
+```
+```
 python3 recon11.py
 ```
 🖥️ Documentation & Preview
