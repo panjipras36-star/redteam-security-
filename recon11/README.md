@@ -24,13 +24,12 @@ A lightweight, tactical active reconnaissance utility built natively in Python. 
 
 nrp-recon >
 
-# RECON1.1
+ RECON1.1
 
 A tactical active network scanner.
 
-## 🚀 How to Run
-```
- ## 🚀 How to Run
+
+  🚀 How to Run
 
 If this is your first time accessing this repository, please clone it to your local machine first:
 
