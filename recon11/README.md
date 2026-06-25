@@ -30,9 +30,13 @@ A tactical active network scanner.
 
 ## 🚀 How to Run
 ```
- Clone this repository:
-   ```bash
-   git clone https://github.com/panjipras36-star/redteam-security-.git
+ ## 🚀 How to Run
+
+If this is your first time accessing this repository, please clone it to your local machine first:
+
+```bash
+git clone [https://github.com/panjipras36-star/redteam-security-.git](https://github.com/panjipras36-star/redteam-security-.git)
+cd redteam-security-/recon11
 ```
 Navigate to the project directory:
 ```
