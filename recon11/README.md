@@ -32,7 +32,7 @@ A tactical active network scanner.
 ```
  Clone this repository:
    ```bash
-   git clone [https://github.com/panjipras36-star/redteam-security-.git](https://github.com/panjipras36-star/redteam-security-.git)
+   git clone https://github.com/panjipras36-star/redteam-security-.git
 ```
 Navigate to the project directory:
 ```
