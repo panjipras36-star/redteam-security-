@@ -33,7 +33,7 @@ git clone https://github.com/panjipras36-star/redteam-security-.git
 cd redteam-security-
 ```
 ```
- Recon1.1.py
+ python3 Recon1.1.py
 ```
 🖥️ Documentation & Preview
 ============================================================
