@@ -1,4 +1,11 @@
-============================================================
+# RECON1.1 - Tactical Active Network Scanner
+
+A lightweight, tactical active reconnaissance utility built natively in Python. It is designed for rapid network vector mapping, port auditing, and banner analysis during simulation and engagement phases.
+
+---
+
+## 🖥️ Preview
+```text
    ██████╗ ███████╗ ██████╗ ██████╗ ███╗   ██╗ ██╗  ██╗
    ██╔══██╗██╔════╝██╔════╝██╔═══██╗████╗  ██║███║  ██║
    ██████╔╝█████╗  ██║     ██║   ██║██╔██╗ ██║╚██║  ╚██║
@@ -6,7 +13,6 @@
    ██║  ██║███████╗╚██████╗╚██████╔╝██║ ╚████║ ██║   ██║
    ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝ ╚═╝   ╚═╝
                  RECON TOOL v1.1 // BY NEUROPRASSSSS
-============================================================
 
 [?] Target IP Address -> [TARGET_IP]
 
