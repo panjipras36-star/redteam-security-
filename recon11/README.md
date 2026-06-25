@@ -17,3 +17,28 @@
 4. Terminate Session
 
 nrp-recon >
+
+# RECON1.1
+
+A tactical active network scanner.
+
+## 🚀 How to Run
+
+ Clone this repository:
+   ```bash
+   git clone [https://github.com/panjipras36-star/redteam-security-.git](https://github.com/panjipras36-star/redteam-security-.git)
+```
+Navigate to the project directory:
+```
+cd redteam-security-
+```
+Enter the tool folder:
+```
+cd recon11
+```
+Run the scanner:
+```
+python3 recon11.py
+```
+
+   
