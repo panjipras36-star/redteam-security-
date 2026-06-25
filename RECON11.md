@@ -31,11 +31,6 @@ git clone [https://github.com/panjipras36-star/redteam-security-.git](https://gi
 cd redteam-security-
 python3 recon11.py
 ```
-
-One-Line Installing / Execution (Tactical Method)
-
-You can stream and run the scanner instantly in your workspace without storing temporary repository files on your local drive:
-curl -s [https://raw.githubusercontent.com/panjipras36-star/redteam-security-/main/recon11.py](https://raw.githubusercontent.com/panjipras36-star/redteam-security-/main/recon11.py) | python3
 🖥️ Documentation & Preview
 Interface Layout
 ============================================================
