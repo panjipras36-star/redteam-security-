@@ -25,7 +25,7 @@ The tool maps out open ports using standard TCP full-handshake verification.
                   RECON TOOL v1.1 // BY NEUROPRASSSSS
 ============================================================
 
-[?] Target IP Address -> 192.168.1.14
+[?] Target IP Address -> *******
 
 [ CORE MENU ]
 1. Scan Standard Ports
