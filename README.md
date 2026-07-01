@@ -7,7 +7,6 @@ I am a Security Student focused on **Offensive Security**. I use this repository
 ## 🛠️ Technical Skills & Tools
 ### **Languages**
 - **Python:** Scripting for basic automation.
-- **Web:** HTML & JavaScript (Foundational).
 
 ### **Tools**
 - **Reconnaissance:** Nmap, Subfinder, Assetfinder, HTTPX.
